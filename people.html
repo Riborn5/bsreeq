@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlBsreeq Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>AlBsreeq Group</h1>
+    <div class="search-container">
+      <input type="text" id="search-name" placeholder="Search by name...">
+      <select id="search-major">
+        <option value="" selected disabled>Filter by major...</option>
+      </select>
+      <input type="number" id="search-starting-year" placeholder="Filter by starting year...">
+    </div>
+  </header>
+
+  <main id="members-list"></main>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-btn">&times;</span>
+      <h2 id="modal-name"></h2>
+      <img src="" alt="Profile Picture" id="modal-image">
+      <div class="modal-details">
+        <span id="modal-major"></span>
+        <span id="modal-degree"></span>
+        <span id="modal-starting-year"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

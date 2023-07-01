@@ -1,0 +1,182 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.search-container input[type="text"],
+.search-container select,
+.search-container input[type="number"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  max-width: 300px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card .dates-major {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card .dates-major span {
+  font-size: 14px;
+}
+
+.card .major-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card .degree-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f0f0f0; */
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+}
+
+.bachelor {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.masters {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.phd {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Color the major cards */
+.major-box {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Add a background color for each major */
+/* You can customize these colors as per your preference */
+.major-box[data-major="Computer Science"] {
+  background-color: #b2dfdb;
+}
+
+.major-box[data-major="Electrical Engineering"] {
+  background-color: #ffcdd2;
+}
+
+/* Add more major color styles for each major */
+
+/* Add some padding to the member card to make it look cleaner */
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* Styles for the modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 80%;
+  width: 400px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-details {
+  margin-top: 20px;
+}
+
+/* ... (previous code) ... */
