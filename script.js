@@ -95,14 +95,14 @@ const members = [
     image: "https://via.placeholder.com/150?text=Hassan+Alobaid",
     major: "Computer Science",
     degree: "Bachelor",
-    startingYear: 2020,
+    startingYear: 2019,
   },
   {
     name: "Ismail Hawsawi",
     image: "https://via.placeholder.com/150?text=Ismail+Hawsawi",
     major: "Computer Engineering",
     degree: "Bachelor",
-    startingYear: 2021,
+    startingYear: 2020,
   },
   {
     name: "Mansour Alsharif",
