@@ -77,8 +77,8 @@ const members = [
     startingYear: 2019,
   },
   {
-    name: "Dhiaalden Hamedaddin",
-    image: "https://via.placeholder.com/150?text=Dhiaalden+Hamedaddin",
+    name: "Dhiaaddin Hamidaddin",
+    image: "https://via.placeholder.com/150?text=Dhiaaddin+Hamidaddin",
     major: "Software Engineering",
     degree: "Bachelor",
     startingYear: 2019,
@@ -175,8 +175,8 @@ const members = [
     startingYear: 2017,
   },
   {
-    name: "Abdullah Almulla",
-    image: "https://via.placeholder.com/150?text=Abdullah+Almulla",
+    name: "Abdulrahman Almulla",
+    image: "https://via.placeholder.com/150?text=Abdulrahman+Almulla",
     major: ".",
     degree: ".",
     startingYear: 2018,
