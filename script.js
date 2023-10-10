@@ -95,7 +95,7 @@ const members = [
     image: "https://via.placeholder.com/150?text=Hassan+Alobaid",
     major: "Computer Science",
     degree: "Bachelor",
-    startingYear: 2019,
+    startingYear: 2019.5,
   },
   {
     name: "Ismail Hawsawi",
